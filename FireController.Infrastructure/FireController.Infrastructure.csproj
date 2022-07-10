@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Google.Cloud.Firestore" Version="3.0.0" />
+    <PackageReference Include="Google.Cloud.Firestore.V1" Version="3.0.0" />
+    <PackageReference Include="Prism.Unity.Extensions" Version="8.0.62" />
+    <PackageReference Include="Prism.Wpf" Version="8.1.97" />
+    <PackageReference Include="ReactiveProperty.WPF" Version="8.1.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Factory\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="C:\Users\Kazuhiro Takahashi\.nuget\packages\prism.unity.extensions\8.0.62\buildTransitive\PreserveContainerExtension.cs" />
+  </ItemGroup>
+
+</Project>
